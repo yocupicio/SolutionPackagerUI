@@ -25,6 +25,6 @@ To Extract, Browse for compressed solution file and then click Extract button.<b
  ![extract](https://raw.githubusercontent.com/yocupicio/SolutionPackagerUI/master/images/extract.png)
 
 To Pack, type the folder where the solution was extracted or navigate to the directory using Browse button.<br />
-Enter the location where the .zip file will be saved.<br />
+Enter the location where the .zip file will be saved. You should add the suffix "_pack.zip" to keep your original solution <br />
 Click Pack button.<br />
  ![pack](https://raw.githubusercontent.com/yocupicio/SolutionPackagerUI/master/images/pack.png)

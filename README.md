@@ -16,7 +16,7 @@ Follow the steps [here](https://docs.microsoft.com/en-us/dynamics365/customereng
 ## Installation
 Download [SolutionPackagerUI.exe](https://raw.githubusercontent.com/yocupicio/SolutionPackagerUI/master/SolutionPackagerUI.exe) to your "devtools" directory under tools\CoreTools directory.
 Example:
- D:\devtools\Tools\CoreTools
+ C:\devtools\Tools\CoreTools
  
 ## Usage
 The following sections show you how to run the tool and how to use the tool with managed and un-managed solutions.

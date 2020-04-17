@@ -6,7 +6,7 @@ so that these files can be easily managed by a source control system.
 This tool also can compress back into a solution file.
 
 # SolutionPackagerUI
-The SolutionPackagerUI is a windows application tool that lets you pack and unpack a a Dynamics 365 solution zip file using SolutionPackager SDK.
+The SolutionPackagerUI is a windows application tool that lets you pack and unpack a Dynamics 365 solution .zip file using SolutionPackager SDK.
 
 ## Requirement
 To use SolutionPackagerUI, first you need to download the latest Dynamics 365 SDK assemblies. 
@@ -19,14 +19,12 @@ Example:
  C:\devtools\Tools\CoreTools
  
 ## Usage
-The following sections show you how to run the tool and how to use the tool with managed and un-managed solutions.
+The following sections show you how to run the tool and how to use it with managed and un-managed solutions.
 
-To Extract
-Browse for compressed solution file and then click Extract button.
+To Extract, Browse for compressed solution file and then click Extract button.
  ![extract](https://raw.githubusercontent.com/yocupicio/SolutionPackagerUI/master/images/extract.png)
 
-To Pack
-Type the folder where the solution was extracted or navigate to the directory using Browse button.
+To Pack, type the folder where the solution was extracted or navigate to the directory using Browse button.
 Enter the location where the .zip file will be saved.
 Click Pack button.
  ![pack](https://raw.githubusercontent.com/yocupicio/SolutionPackagerUI/master/images/pack.png)

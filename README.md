@@ -38,7 +38,7 @@ Remove-Item nuget.exe
 ### Download SolutionPackagerUI.exe using PowerShell
 
 ```powershell
-Set-Location -Path C:\support3\sdk
+Set-Location -Path C:\sdk
 $sourceSolutionPackagerUIExe = "https://github.com/yocupicio/SolutionPackagerUI/raw/master/SolutionPackagerUI.exe"
 $targetSolutionPackagerUIExe = ".\Tools\CoreTools\SolutionPackagerUI.exe"
 Invoke-WebRequest $sourceSolutionPackagerUIExe -OutFile $targetSolutionPackagerUIExe

@@ -16,7 +16,6 @@ Set-Location -Path C:\sdk
 
 $sourceNugetExe = "https://dist.nuget.org/win-x86-commandline/latest/nuget.exe"
 $targetNugetExe = ".\nuget.exe"
-#Remove-Item .\Tools -Force -Recurse -ErrorAction Ignore
 Invoke-WebRequest $sourceNugetExe -OutFile $targetNugetExe
 Set-Alias nuget $targetNugetExe -Scope Global -Verbose
 
@@ -39,8 +38,9 @@ Remove-Item nuget.exe
 ### Download SolutionPackagerUI.exe using PowerShell
 
 ```powershell
+Set-Location -Path C:\support3\sdk
 $sourceSolutionPackagerUIExe = "https://github.com/yocupicio/SolutionPackagerUI/raw/master/SolutionPackagerUI.exe"
-$targetSolutionPackagerUIExe = ".\SolutionPackagerUI.exe"
+$targetSolutionPackagerUIExe = ".\Tools\CoreTools\SolutionPackagerUI.exe"
 Invoke-WebRequest $sourceSolutionPackagerUIExe -OutFile $targetSolutionPackagerUIExe
 Set-Alias nuget $targetSolutionPackagerUIExe -Scope Global -Verbose
 ```

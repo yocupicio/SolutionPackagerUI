@@ -35,12 +35,6 @@ Remove-Item .\Tools\$coreToolsFolder -Force -Recurse
 Remove-Item nuget.exe
 ```
 
-### Download SolutionPackagerUI.exe using PowerShell
+## Installation
 
-```powershell
-Set-Location -Path C:\sdk
-$sourceSolutionPackagerUIExe = "https://github.com/yocupicio/SolutionPackagerUI/raw/master/SolutionPackagerUI.exe"
-$targetSolutionPackagerUIExe = ".\Tools\CoreTools\SolutionPackagerUI.exe"
-Invoke-WebRequest $sourceSolutionPackagerUIExe -OutFile $targetSolutionPackagerUIExe
-Set-Alias nuget $targetSolutionPackagerUIExe -Scope Global -Verbose
-```
+Download SolutionPackagerUI.exe [pip](https://github.com/yocupicio/SolutionPackagerUI/raw/master/SolutionPackagerUI.exe) to your sdk tools\CoreTools directory: c:\sdk\Tools\CoreTools.

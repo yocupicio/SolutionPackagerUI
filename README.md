@@ -14,7 +14,7 @@ The SDK assemblies can be downloaded from NuGet.
 Follow the steps [here](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
 
 ## Installation
-Download [SolutionPackagerUI.exe](https://github.com/yocupicio/SolutionPackagerUI/master/SolutionPackagerUI.exe) to your "devtools" directory under tools\CoreTools directory.
+Download [SolutionPackagerUI.exe](https://raw.githubusercontent.com/yocupicio/SolutionPackagerUI/master/SolutionPackagerUI.exe) to your "devtools" directory under tools\CoreTools directory.
 Example:
  D:\devtools\Tools\CoreTools
  

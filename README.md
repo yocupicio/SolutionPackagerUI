@@ -37,4 +37,4 @@ Remove-Item nuget.exe
 
 ## Installation
 
-Download SolutionPackagerUI.exe [pip](https://github.com/yocupicio/SolutionPackagerUI/raw/master/SolutionPackagerUI.exe) to your sdk tools\CoreTools directory: c:\sdk\Tools\CoreTools.
+Download [SolutionPackagerUI.exe](https://github.com/yocupicio/SolutionPackagerUI/raw/master/SolutionPackagerUI.exe) to your sdk tools\CoreTools directory: c:\sdk\Tools\CoreTools.

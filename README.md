@@ -36,8 +36,11 @@ Remove-Item .\Tools\$coreToolsFolder -Force -Recurse
 Remove-Item nuget.exe
 ```
 
-### Download SolutionPackagerUI.exe
+### Download SolutionPackagerUI.exe using PowerShell
+
+```powershell
 $sourceSolutionPackagerUIExe = "https://github.com/yocupicio/SolutionPackagerUI/raw/master/SolutionPackagerUI.exe"
 $targetSolutionPackagerUIExe = ".\SolutionPackagerUI.exe"
 Invoke-WebRequest $sourceSolutionPackagerUIExe -OutFile $targetSolutionPackagerUIExe
 Set-Alias nuget $targetSolutionPackagerUIExe -Scope Global -Verbose
+```

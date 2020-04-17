@@ -8,4 +8,6 @@ Follow the steps [here](https://docs.microsoft.com/en-us/dynamics365/customereng
 
 ## Installation
 
-Download [SolutionPackagerUI.exe](https://github.com/yocupicio/SolutionPackagerUI/raw/master/SolutionPackagerUI.exe) to your sdk tools\CoreTools directory: c:\sdk\Tools\CoreTools.
+Download [SolutionPackagerUI.exe](https://github.com/yocupicio/SolutionPackagerUI/raw/master/SolutionPackagerUI.exe) to your "devtools" directory under tools\CoreTools directory.
+Example:
+ D:\devtools\Tools\CoreTools

@@ -1,39 +1,10 @@
 # SolutionPackagerUI
-The SolutionPackagerUI is a windows application tool that lets you pack and unpack a solution zip file.
+The SolutionPackagerUI is a windows application tool that lets you pack and unpack a a Dynamics 365 solution zip file.
 
 ## Usage
-
-### Download Latest version of Microsoft.CrmSdk.CoreTools using PowerShell
-
-```powershell
-
-##
-##Create sdk directory (Change to your preferred directory)
-New-Item -ItemType Directory -Force -Path C:\sdk
-Set-Location -Path C:\sdk
-##
-
-
-$sourceNugetExe = "https://dist.nuget.org/win-x86-commandline/latest/nuget.exe"
-$targetNugetExe = ".\nuget.exe"
-Invoke-WebRequest $sourceNugetExe -OutFile $targetNugetExe
-Set-Alias nuget $targetNugetExe -Scope Global -Verbose
-
-##
-##Download CoreTools
-##
-./nuget install  Microsoft.CrmSdk.CoreTools -O .\Tools
-md .\Tools\CoreTools
-$coreToolsFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.CoreTools.'}
-move .\Tools\$coreToolsFolder\content\bin\coretools\*.* .\Tools\CoreTools
-Remove-Item .\Tools\$coreToolsFolder -Force -Recurse
-
-
-##
-##Remove NuGet.exe
-##
-Remove-Item nuget.exe
-```
+To use SolutionPackagerUI, first you need to download the latest Dynamics 365 SDK assemblies. 
+The SDK assemblies can be downloaded from NuGet. 
+Follow the steps [here](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
 
 ## Installation
 

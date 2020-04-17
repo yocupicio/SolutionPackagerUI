@@ -21,8 +21,12 @@ Example:
 ## Usage
 The following sections show you how to run the tool and how to use the tool with managed and un-managed solutions.
 
-To Extract  
+To Extract
+Browse for compressed solution file and then click Extract button.
  ![extract](https://raw.githubusercontent.com/yocupicio/SolutionPackagerUI/master/images/extract.png)
 
-To Pack  
+To Pack
+Type the folder where the solution was extracted or navigate to the directory using Browse button.
+Enter the location where the .zip file will be saved.
+Click Pack button.
  ![pack](https://raw.githubusercontent.com/yocupicio/SolutionPackagerUI/master/images/pack.png)
